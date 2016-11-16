@@ -1,6 +1,85 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  color: #8C9A9D;
+  margin: 0;
+}
+h2 {
+  margin-left: 20px;
+  color: #384047;
+}
+h3 {
+  color: #4B5658;
+}
+h5{
+  color: white;
+  margin-right: 10px;
+  float: right;
+}
+
+button {
+  border-radius: 40px;
+  background-color: white;
+  border: 2px solid #EAEDEF;
+  margin-left: 5px;
+  padding: 10px;
+}
+.buttonH {
+  float: left;
+  margin-left: 10px;
+}
+.java {
+  color: #2C9676;
+  font-size: 14px;
+}
+.python {
+  color: #F092B0;
+  font-size: 14px;
+}
+.wordpress {
+  color: #838CC7;
+  font-size: 14px;
+}
+.button {
+  font-size: 14px;
+  color: #8D9B9E;
+}
 .allBox {
   margin-left: 55px;
 }
+.book {
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+#notify, #arrow, #profile {
+  border-right: solid #4B5658 2px;
+  /*margin-left: 20px;*/
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: right;
+}
+#star, #play {
+  margin-right: 20px;
+  float: right;
+}
+
+#circle {
+  margin-left: 5px;
+  margin-top: 25px;
+  float: left;
+  height: 5px;
+  width: 5px;
+  opacity: .5;
+  border: solid white 2px;
+  background-color: inherit;
+  border-radius: 50%;
+}
+
 #wrapper {
   width: 1200px;
   height: 800px;
@@ -13,14 +92,21 @@
   padding: 3px;
   box-shadow: 0 4px 6px -6px #222;
 }
+#box-content {
+  padding: 20px;
+}
 #box1 {
   background-color: white;
   float: left;
   width: 500px;
   height: 300px;
   margin: 20px;
+  box-shadow: 0 4px 6px -6px #222;
+  border-radius: 5px;
 }
 #box1-header {
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
   height: 55px;
   background: #2C9676;
 }
@@ -30,8 +116,12 @@
   width: 500px;
   height: 300px;
   margin: 20px;
+  box-shadow: 0 4px 6px -6px #222;
+  border-radius: 0 0 5px 5px;
 }
 #box2-header {
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
   height: 55px;
   background: #F092B0;
 }
@@ -41,8 +131,12 @@
   height: 300px;
   width: 500px;
   margin: 20px;
+  box-shadow: 0 4px 6px -6px #222;
+  border-radius: 5px;
 }
 #box3-header {
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
   height: 55px;
   background: #838CC7;
 }
@@ -52,8 +146,12 @@
   height: 300px;
   width: 500px;
   margin: 20px;
+  box-shadow: 0 4px 6px -6px #222;
+  border-radius: 5px;
 }
 #box4-header {
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
   height: 55px;
   background: #2C9676;
 }
